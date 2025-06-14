@@ -5,22 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elements</title>
     <style>
+        /* class selector*/
     .sumit{
         background-color: pink;
     }
+     /* class selector*/
     .AMIT{
         color: yellow;
         background-color: black;
     }
+    /* id selector*/
     #kashyap{
         background-color: aqua;
         color: black;
     }
+     /* child selector*/
+    div > span > p{
+        background-color: black;
+        color: aqua;
+    }
+     /* univeral selector*/
+    *{
+        margin:0;
+       
+    }
+     /* auto selector*/
+     h4 p{
+        background-color: chartreuse;
+     }
     </style>
 </head>
 <body>
-    <div class="sumit"> <h1> sumit  </h1></div>
+    <div class="sumit"> <h1> sumit  </h1>
+   <span> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum iure vel harum exercitationem perferendis eaque cupiditate error! Blanditiis dicta quod velit eius repudiandae, modi perspiciatis consectetur iste impedit officiis vitae?</p>
+</div></span>
     <div class="AMIT"> <h1> amit  </h1></div>
     <div id="kashyap"><h1>kashyap</h1></div>
+    <div><h4><span><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nisi laboriosam blanditiis et modi. Sint, numquam eius inventore, explicabo aut nostrum quae possimus eligendi obcaecati, deleniti molestiae! Praesentium voluptatibus molestias eius aliquid? Delectus necessitatibus corrupti debitis modi incidunt fuga optio! Tempore nam vero unde, odit fugiat vitae recusandae. Magni, saepe?</p></span></h4></div>
 </body>
 </html>
