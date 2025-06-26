@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         div{
             background-color: rgb(34, 33, 33);
             height: 10vh;
@@ -29,8 +33,11 @@
             top:150px;
         }
         .box4{
-            position: relative;
-            bottom: 25px;
+            /* position absolute will work on the basic of their parent */
+            /* here it work as per body */
+            position: absolute;
+            bottom: 15px;
+            left: 0px;
         }
     </style>
 </head>
